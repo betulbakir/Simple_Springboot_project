@@ -36,3 +36,23 @@ The application will allow the following requests:
   "result": 13
 } 
 ```
+## Running the Application Locally
+
+To run the application locally (on the project root), you can use the Spring Boot Maven plugin as follows:
+
+```
+$  ./mvnw spring-boot:run
+```
+This command will start the application on your local machine.
+
+## Running Tests
+
+To run the tests for the application, you can use the following command (on the project root):
+
+```
+$  ./mvnw test
+```
+This command will build the tests and execute them, providing you with feedback on the success or failure of each test.
+
+
+
